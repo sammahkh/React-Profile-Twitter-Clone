@@ -1,9 +1,11 @@
-function App() {
+import LeftSidebar from "./components/LeftSidebar/LeftSidebar";
+
+const App = () => {
   return (
     <div className="App">
-      <h1>React Twitter Profile UI</h1>
+      <LeftSidebar />
     </div>
   );
-}
+};
 
 export default App;
