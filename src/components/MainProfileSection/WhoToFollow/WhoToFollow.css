@@ -1,5 +1,5 @@
 .who-to-follow {
-  padding: 0.5rem;
+  padding: 1rem;
   color: white;
 }
 
@@ -9,13 +9,7 @@
   margin-bottom: 1rem;
 }
 
-.show-more {
-  display: block;
-  margin-top: 0.7rem;
-  color: #1da1f2;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
+
 
 .verified-icon {
   color: #1da1f2;
