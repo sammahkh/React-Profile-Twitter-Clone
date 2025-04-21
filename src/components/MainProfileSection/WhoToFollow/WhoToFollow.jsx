@@ -1,6 +1,8 @@
 import { FaUserFriends } from "react-icons/fa";
 import FollowSuggestion from "./FollowSuggestion/FollowSuggestion";
 import "./WhoToFollow.css";
+import ShowMoreLink from "../../ShowMoreLink/ShowMoreLink";
+
 const suggestions = [
   {
     avatar: "https://avatars.githubusercontent.com/u/9892522",
@@ -25,16 +27,14 @@ const suggestions = [
   },
 ];
 
-const WhoToFollow = () => {
+const WhoToFollow = ({ minimal = false }) => {
   return (
     <div className="who-to-follow">
       <h3 className="follow-title">Who to follow</h3>
       {suggestions.map((user) => (
-        <FollowSuggestion key={user.username} {...user} />
+        <FollowSuggestion key={user.username} {...user} minimal={minimal} />
       ))}
-      <a href="/" className="show-more">
-        Show more
-      </a>
+      <ShowMoreLink />
     </div>
   );
 };

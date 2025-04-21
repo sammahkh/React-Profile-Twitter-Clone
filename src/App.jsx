@@ -1,5 +1,6 @@
 import LeftSidebar from "./components/LeftSidebar/LeftSidebar";
 import MainProfileSection from "./components/MainProfileSection/MainProfileSection";
+import RightSidebar from "./components/RightSidebar/RightSidebar";
 
 import "./App.css";
 
@@ -8,6 +9,7 @@ const App = () => {
     <div className="App">
       <LeftSidebar />
       <MainProfileSection />
+      <RightSidebar />
     </div>
   );
 };

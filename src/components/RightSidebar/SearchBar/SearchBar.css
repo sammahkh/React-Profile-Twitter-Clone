@@ -1,0 +1,23 @@
+.search-bar {
+  background-color: #202327;
+  border-radius: 9999px;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.search-icon {
+  color: gray;
+  font-size: 1rem;
+}
