@@ -1,0 +1,96 @@
+.profile-header {
+  color: white;
+}
+
+.banner {
+  background-color: #292a2b;
+  height: 150px;
+  width: 100%;
+}
+
+.profile-info {
+  padding: 1rem;
+  position: relative;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid black;
+  position: absolute;
+  top: -50px;
+  left: 1rem;
+  background: white;
+}
+
+.action-buttons {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-buttons button {
+  background-color: transparent;
+  border: 1px solid #2f3336;
+  border-radius: 999px;
+  padding: 0.3rem 0.4rem;
+  color: white;
+  cursor: pointer;
+}
+.notify-btn:hover,
+.followed-btn:hover,
+.more-btn:hover {
+  background-color: #1e1e1e;
+  transition: background-color 0.3s ease;
+}
+
+.followed-btn {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.profile-name {
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.profile-username {
+  color: #aaa;
+  margin-top: 0.2rem;
+}
+
+.bio {
+  margin: 0;
+}
+
+.meta {
+  color: #aaa;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.meta a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+.profile-link svg,
+.profile-joined svg {
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.profile-follow {
+  display: flex;
+  gap: 1rem;
+  color: #aaa;
+}
+.profile-follow strong {
+  color: white;
+}
