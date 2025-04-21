@@ -1,0 +1,25 @@
+.who-to-follow {
+  padding: 0.5rem;
+  color: white;
+}
+
+.follow-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.show-more {
+  display: block;
+  margin-top: 0.7rem;
+  color: #1da1f2;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.verified-icon {
+  color: #1da1f2;
+  font-size: 0.9rem;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
